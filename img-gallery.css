@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.list-person{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-person li{
+    max-width: 500px;
+    overflow: hidden;
+}
+.list-person li img{
+    display: block;
+    margin-left: 10px;
+    padding-top: 10px;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.list-person li:hover img{
+    transform: scale(1.1);
+}
